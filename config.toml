@@ -1,0 +1,43 @@
+baseURL = "https://doggostream.com/"
+DefaultContentLanguage = "en"
+
+languageCode = "en-us"
+title = "DoggoStream"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentOptions = "linenos=inline"
+
+[params]
+  subtitle = "Doggos streamed to you daily"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = false
+  useHLJS = false
+  socialShare = false
+
+[Author]
+  name = "Joel Ferrier"
+  website = "joelferrier.com"
+  github = "joelferrier"
+
+[[menu.main]] #TODO
+    name = "Blog"
+    url = "post/index.html"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/index.html"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags/index.html"
+    weight = 3
